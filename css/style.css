@@ -673,7 +673,7 @@ header a:hover {
 
 @media screen and (max-width:900px) and (min-width:315px) {
     .hero h2 {
-        font-size: 27px;
+        font-size: 25px;
     }
 }
 
