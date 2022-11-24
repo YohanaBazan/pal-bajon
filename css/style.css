@@ -696,6 +696,16 @@ header a:hover {
     }
 }
 
+@media screen and (max-width:780px){
+
+    .variedad{
+        font-size: 30px;
+    }
+
+    .linkeo{
+        font-size: 15px;
+    }
+}
 
 
 
