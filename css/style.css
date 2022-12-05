@@ -295,6 +295,13 @@ input {
 
 /*------------NOSOTROS------*/
 
+.acerca{
+    background: rgb(196, 154, 235);
+    background: radial-gradient(circle, rgba(196, 154, 235, 1) 0%, rgba(216, 165, 231, 0.5049370089832808) 22%, rgba(178, 244, 243, 1) 100%);
+    width: 100%;
+    height: 100%;
+}
+
 .integrantes {
     color: #050606;
     font-size: 35px;
@@ -507,7 +514,6 @@ input {
 }
 
 
-
 .grid-gomitas {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
@@ -528,7 +534,6 @@ input {
 }
 
 
-
 .grid-chocolates {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
@@ -547,10 +552,6 @@ input {
     column-gap: 20px;
     text-align: center;
 }
-
-
-
-
 
 .grid-snacks {
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -708,7 +709,7 @@ input {
     }
 }
 
-@media screen and (max-width:780px) {
+@media screen and (max-width:817px) {
 
     .variedad {
         font-size: 30px;
@@ -717,10 +718,43 @@ input {
     .linkeo {
         font-size: 15px;
     }
+    
+    .dos {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .uno img {
+        height: 370px;
+        width: 270px;
+    }
+
+    .p4 {
+        font-size: 20px;
+    }
+
+
 }
 
 
 
+@media screen and (max-width:683px) {
+
+    .nosotros {
+        width:100% ;
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows:1fr 1fr;
+        grid-template-areas:
+        "uno"
+        "dos";
+}
+    .dos{
+        text-align:center ;
+        margin: auto;
+    }
 
 
-/* ME FALTA HACER MEDIA QUERY CONTACTO Y QUIENES SOMOS*/
+
+}
+
+
