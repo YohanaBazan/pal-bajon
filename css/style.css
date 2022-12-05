@@ -303,8 +303,9 @@ input {
 }
 
 .integrantes {
+    -webkit-text-stroke: 1px white;
     color: #050606;
-    font-size: 35px;
+    font-size: 40px;
     font-family: 'Delius', cursiva;
     text-align: center;
     padding-top: 10px;
@@ -385,15 +386,16 @@ input {
 
 .contacto {
     width: 450px;
-    margin: auto;
+    height: 370px;
     padding: 10px 20px 10px 20px;
     box-sizing: border-box;
     border: 1px solid black;
     border-radius: 7px;
-
+    margin: auto;
 }
 
 .contacto input {
+    font-size: 15px;
     width: 100%;
     margin-bottom: 20px;
     padding: 7px;
@@ -419,13 +421,17 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background-color: aliceblue;
+    background: rgb(196, 154, 235);
+    background: radial-gradient(circle, rgba(196, 154, 235, 1) 0%, rgba(216, 165, 231, 0.5049370089832808) 22%, rgba(178, 244, 243, 1) 100%);
+    width: 100%;
+    height: 100%;
 }
 
 .preguntas h2 {
     text-align: center;
-    color: #050606;
-    font-size: 35px;
+    -webkit-text-stroke: 1px white;
+    color: black;
+    font-size: 40px;
     font-family: 'Delius', cursiva;
     width: 100%;
     height: 50px;
@@ -440,11 +446,10 @@ input {
     margin: 10px 30px 20px;
 }
 
-.preguntas h3 {
+.preguntas b {
     font-family: 'Red Hat Text', sans-serif;
     font-size: 18px;
     text-decoration: underline;
-    color: #2ed0bd;
     margin: 5px 5px;
 
 }
@@ -665,6 +670,10 @@ input {
     .novedades h3{
         font-size: 20px;
     }
+
+    .contacto{
+        width: 400px;
+    }
 }
 
 @media screen and (max-width:637px) and (min-width:597px) {
@@ -679,6 +688,14 @@ input {
     .catalogo div a {
         font-size: 13px;
     }
+
+    }
+
+@media screen and (max-width:450px) {
+    .contacto{
+        width: 300px;
+    }
+    
 }
 
 
@@ -752,9 +769,5 @@ input {
         text-align:center ;
         margin: auto;
     }
-
-
-
 }
-
 
