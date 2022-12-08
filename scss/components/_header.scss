@@ -1,0 +1,33 @@
+@import "../base/variables";
+
+header{
+    .navbar-expand-lg,
+    .navbar-light {
+        background-color: rgb(144, 226, 236);
+        text-align: center;
+    
+    .container-fluid{
+        .navbar-collapse{
+            .navbar-nav{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .nav-item{ 
+                    .nav-link{
+                        color: $color-letras;
+                        font-family:'Red Hat Text', sans-serif;
+                        font-size: 15px;
+                        transition: 0.5s;
+                        &:hover{
+                            color: whitesmoke;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    }
+
+    }

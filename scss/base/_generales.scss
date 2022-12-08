@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Delius&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Delius&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    .logo{
+        height: 165px;
+        width: 100%;
+        background-color:#c5f5f4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            height: 160px;
+            width: 160px;
+        }
+    }
+    .iconos{
+        height: 45px;
+        width: 100%;
+        background-color: #c5f5f4;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        svg{ 
+            color: black;
+        }
+
+        .d-flex{ 
+            .btn{
+                border-color: #171717;
+                padding: .370rem .70rem;
+                font-size: 18px;
+            }
+        }
+    }
+}

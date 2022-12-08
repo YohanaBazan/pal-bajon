@@ -1,0 +1,30 @@
+
+@mixin color-fondo{
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+        height: 100%;
+    background: rgb(196,154,235);
+background: radial-gradient(circle, rgba(196,154,235,1) 0%, rgba(216,165,231,0.5049370089832808) 27%, rgba(178,244,243,1) 100%);
+}
+
+$color-letras:black; 
+$font-titulo:'Delius', cursive;
+$font-subtitulos:'Comic Neue', cursive;
+
+
+
+$tienda: (
+    alto: 64%,
+    ancho: 80%,
+    ajuste: cover,
+    borde: 1px solid black,
+    radio: 5px 5px 5px 5px,
+    transicion: 2s,
+);
+
+
+%flex{
+    display: flex;
+    align-items: center;
+}
