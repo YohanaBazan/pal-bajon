@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Delius&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Delius&display=swap');
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:700);
+@import "../base/variables";
+
+
 
 * {
     margin: 0;
@@ -14,9 +17,9 @@ body{
         height: 165px;
         width: 100%;
         background-color:#c5f5f4;
-        display: flex;
+        @extend %flex;
         justify-content: center;
-        align-items: center;
+        
         img{
             height: 160px;
             width: 160px;
@@ -26,9 +29,8 @@ body{
         height: 45px;
         width: 100%;
         background-color: #c5f5f4;
-        display: flex;
+        @extend %flex;
         flex-direction: row;
-        align-items: center;
         justify-content: flex-end;
         svg{ 
             color: black;

@@ -2,6 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Comic+Neue&family=Delius&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Comic+Neue&family=Delius&display=swap");
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:700);
+body .logo, body .iconos, .comienzo .ingreso, .comienzo .new span, .comienzo .novedades, .comienzo .novedades div .compra {
+  display: flex;
+  align-items: center; }
+
 * {
   margin: 0;
   padding: 0;
@@ -11,9 +15,7 @@ body .logo {
   height: 165px;
   width: 100%;
   background-color: #c5f5f4;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  justify-content: center; }
   body .logo img {
     height: 160px;
     width: 160px; }
@@ -22,9 +24,7 @@ body .iconos {
   height: 45px;
   width: 100%;
   background-color: #c5f5f4;
-  display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: flex-end; }
   body .iconos svg {
     color: black; }
@@ -33,11 +33,11 @@ body .iconos {
     padding: .370rem .70rem;
     font-size: 18px; }
 
-.comienzo .ingreso, .comienzo .new span, .comienzo .novedades, .comienzo .novedades div .compra {
+body .logo, body .iconos, .comienzo .ingreso, .comienzo .new span, .comienzo .novedades, .comienzo .novedades div .compra {
   display: flex;
   align-items: center; }
 
-.comienzo .ingreso, .comienzo .new span, .comienzo .novedades, .comienzo .novedades div .compra {
+body .logo, body .iconos, .comienzo .ingreso, .comienzo .new span, .comienzo .novedades, .comienzo .novedades div .compra {
   display: flex;
   align-items: center; }
 
@@ -61,7 +61,7 @@ header .navbar-light {
       header .navbar-light .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
         color: whitesmoke; }
 
-.comienzo .ingreso, .comienzo .new span, .comienzo .novedades, .comienzo .novedades div .compra {
+body .logo, body .iconos, .comienzo .ingreso, .comienzo .new span, .comienzo .novedades, .comienzo .novedades div .compra {
   display: flex;
   align-items: center; }
 
@@ -382,7 +382,7 @@ main .formulario {
       max-height: 200px;
       max-width: 100%; }
 
-.comienzo .ingreso, .comienzo .new span, .comienzo .novedades, .comienzo .novedades div .compra {
+body .logo, body .iconos, .comienzo .ingreso, .comienzo .new span, .comienzo .novedades, .comienzo .novedades div .compra {
   display: flex;
   align-items: center; }
 
